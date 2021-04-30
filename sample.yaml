@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: example-secret
   annotations:
-    avp_path: "secret/helloworld"
+    avp_path: "secret/data/helloworld"
 type: Opaque
 data:
   username: <username>
